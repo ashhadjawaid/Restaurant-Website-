@@ -1,0 +1,76 @@
+@media (max-width: 990px){
+
+    html{
+        font-size: 55%;
+    }
+    header{
+        padding: 1rem 2rem;
+    }
+    section{
+        padding: 2rem;
+    }
+}
+@media (max-width:825px){
+    .order form{
+        width: 70rem;
+    }
+}
+@media (max-width:770px){
+    header .icons #menu-bars{
+        display: inline-block;
+    }
+    header .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #fff;
+        border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
+        border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
+        padding: 1rem;
+        /* clip-path: polygon(0 0,100% 0,100% 0, 0 0); */
+        display: none;
+    }
+    header .navbar.active{
+        /* clip-path: polygon(0 0,100% 0,100% 0, 0 0); */
+        transition: all 0.4 s linear;
+        display: block;
+    }
+    header .navbar a{
+        display: block;
+        padding: 1.5rem;
+        margin: 1rem;
+        font-size: 2rem;
+        background: #eee;
+    }
+
+    #search-form #search-box{
+        width: 90%;
+        margin: 0 1rem;
+    }
+    .sliderbox,.slider{
+        height: 85vh;
+    }
+    .home .home-slider .slide .content h3{
+        font-size: 5rem;
+    }
+    .dishes .box-container .box img{
+        height: auto;
+    }
+    .order form{
+        width: 60rem;
+    }
+    .order form .inputBox .input{
+        width: 100%;
+    }
+}
+@media (max-width:560px){
+    .order form{
+        width: 45rem;
+    }
+}
+@media (max-width:435px){
+    .order form{
+        width: 38rem;
+    }
+}
